@@ -1,0 +1,386 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Modelo1</title>
+</head>
+<body>
+
+	<header>
+    <img src="./img/complementos/logo.svg" alt="logo">
+    <nav class="boxNavegacaoHeader">
+      <span><a href="#">Início</a></span>
+      <span><a href="#">Serviços</a></span>
+      <span><a href="#">Cabelereiros</a></span>
+      <span><a href="#">Contato</a></span>
+      <span><a href="#">Local</a></span>
+    </nav> 
+  </header>
+  
+  <main>
+    <section class="containerApresentacao">
+    <div class="backSquare1"></div>
+    <div class="backSquare2"></div>
+   
+      <article class="boxApresentacaoConteudo">
+        <h1>Eleve o seu nível <br> agora mesmo </h1>
+        <article class="boxBtns">
+        <button>Reserve já</button>
+        <aside class="boxSetas">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="var(--branco)" class="setas bi bi-arrow-left" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+</svg>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="var(--branco)" class="setas bi bi-arrow-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+</svg>
+        </aside>
+        </article>
+      </article>
+      <article id="containerImg" class="boxCarrosel">
+        <div class="boxConteudoCarrosel">
+          <h3>Conheça nossos <br> cabeleleiros</h3>
+          <img  src="./img/cabeleleiros/cabeleleiro2.png" alt="">
+        </div>
+        <div class="boxConteudoCarrosel">
+          <h3>Conheça nossos <br> cabeleleiros</h3>
+          <img  src="./img/cabeleleiros/cabeleleiro2.png" alt="">
+        </div>
+        <div class="boxConteudoCarrosel">
+       
+          <img  src="./img/cabeleleiros/cabelelero2.png" alt="Loja">
+        </div>
+      </article>
+    </section>
+    
+    <section class="containerServicos">
+    <aside >
+	      <h3>
+	        <span><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#ffbf0e"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M23 13H1v-2h22z"></path><path fill="none" d="M0 0h24v24H0z"></path></g></svg></span>Nossos Serviços</h3>
+	       <i>Desfrute de nossos serviços e eleve seu nivel agora mesmo</i>
+	       </aside>
+    <div class="flexServicos">
+	       <div class="boxServicos">
+	        <div class="boxServicosConteudo">
+	         <svg class="imgServicos" fill="#ffbf0e" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512.00 512.00" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M501.546,161.19c-2.248-5.548-7.922-8.608-13.78-7.432c-5.895,1.175-9.974,6.198-9.921,12.205l0.001,0.147 c0,30.7-24.977,55.676-55.678,55.676c-18.664,0-35.998-9.286-46.366-24.841c-0.039-0.058-0.078-0.116-0.12-0.173l-2.284-3.257 c-0.053-0.076-0.108-0.152-0.164-0.225c-15.56-20.766-40.338-32.646-66.285-31.732c-18.938,0.655-37.038,8.246-50.95,21.137 c-13.912-12.891-32.012-20.482-50.95-21.137c-25.925-0.915-50.725,10.966-66.285,31.732c-0.056,0.075-0.11,0.149-0.164,0.225 l-2.284,3.257c-0.04,0.058-0.079,0.116-0.12,0.173c-10.368,15.555-27.701,24.841-46.366,24.841 c-30.7,0-55.678-24.976-55.678-55.676v-0.14c0.055-6.013-4.025-11.036-9.92-12.213c-5.866-1.174-11.532,1.885-13.78,7.43 C3.518,178.303,0,196.422,0,215.043c0,38.466,15.257,74.682,42.961,101.977c27.718,27.307,64.178,42.002,102.665,41.455 c43.337-0.646,83.732-20.802,110.373-54.515c26.641,33.713,67.037,53.869,110.373,54.515c0.724,0.011,1.444,0.017,2.167,0.017 c37.688,0,73.303-14.678,100.499-41.472C496.742,289.725,512,253.508,512,215.043C512,196.422,508.483,178.303,501.546,161.19z M456.565,304.359c-24.3,23.939-56.264,36.812-89.928,36.346c-41.686-0.621-80.27-21.855-103.209-56.8 c-1.642-2.501-4.435-4.01-7.429-4.01s-5.786,1.507-7.429,4.01c-22.94,34.943-61.524,56.178-103.209,56.8 c-33.702,0.463-65.627-12.406-89.928-36.346c-24.285-23.927-37.66-55.648-37.66-89.316c0-8.558,0.847-16.992,2.527-25.242 c9.878,28.911,37.317,49.758,69.531,49.758c24.584,0,47.414-12.209,61.094-32.662l2.145-3.058 c12.081-16.05,31.277-25.221,51.367-24.52c17.187,0.595,33.505,8.596,44.772,21.951c1.688,2.001,4.174,3.157,6.793,3.157 s5.104-1.155,6.793-3.157c11.266-13.355,27.585-21.356,44.771-21.951c20.119-0.68,39.285,8.471,51.367,24.52l2.145,3.058 c13.679,20.455,36.51,32.662,61.094,32.662c32.215,0,59.652-20.847,69.531-49.758c1.68,8.248,2.527,16.683,2.527,25.242 C494.227,248.711,480.852,280.432,456.565,304.359z"></path> </g> </g> </g>
+	         </svg>
+	         <article class="boxServicosTitulo">
+	           <p>Barba</p>
+	           <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#ffbf0e"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M23 13H1v-2h22z"></path><path fill="none" d="M0 0h24v24H0z"></path></g>
+	           </svg>
+	           <span>R$ 15,00</span>
+	         </article>
+	         <p>
+	           Corte de barba com creme próprio e navalha
+	         </p>
+	        </div>
+	        <div class="boxServicosConteudo">
+	         <article class="boxServicosTitulo">
+	           <p>Sombrancelha</p>
+	           <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#ffbf0e"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M23 13H1v-2h22z"></path><path fill="none" d="M0 0h24v24H0z"></path></g>
+	           </svg>
+	           <span>R$ 15,00</span>
+	         </article>
+	         <p>
+	           Sombrancelha feita com pinça, cera ou navalha
+	         </p>
+	        </div>
+	        <div class="boxServicosConteudo">
+	         <article class="boxServicosTitulo">
+	           <p>Bigode</p>
+	           <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#ffbf0e"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M23 13H1v-2h22z"></path><path fill="none" d="M0 0h24v24H0z"></path></g>
+	           </svg>
+	           <span>R$ 10,00</span>
+	         </article>
+	         <p>Corte detalhado do bigode
+	         </p>
+	        </div>
+	       </div>
+	       <div class="boxServicos">
+	        <div class="boxServicosConteudo">
+	       <svg class="imgServicos" viewBox="0 0 1024.00 1024.00" xmlns="http://www.w3.org/2000/svg" fill="#ffbf0e"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#ffbf0e" d="m512.064 578.368-106.88 152.768a160 160 0 1 1-23.36-78.208L472.96 522.56 196.864 128.256a32 32 0 1 1 52.48-36.736l393.024 561.344a160 160 0 1 1-23.36 78.208l-106.88-152.704zm54.4-189.248 208.384-297.6a32 32 0 0 1 52.48 36.736l-221.76 316.672-39.04-55.808zm-376.32 425.856a96 96 0 1 0 110.144-157.248 96 96 0 0 0-110.08 157.248zm643.84 0a96 96 0 1 0-110.08-157.248 96 96 0 0 0 110.08 157.248z"></path></g>
+	       </svg>
+	         <article class="boxServicosTitulo">
+	           <p>Corte Infantil</p>
+	           <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#ffbf0e"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M23 13H1v-2h22z"></path><path fill="none" d="M0 0h24v24H0z"></path></g>
+	           </svg>
+	           <span>R$ 15,00</span>
+	         </article>
+	         <p>
+	           Cortes de cabelos realizados em crianças com menos de 13 anos
+	         </p>
+	        </div>
+	        <div class="boxServicosConteudo">
+	         <article class="boxServicosTitulo">
+	           <p>Corte Classico</p>
+	           <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#ffbf0e"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M23 13H1v-2h22z"></path><path fill="none" d="M0 0h24v24H0z"></path></g>
+	           </svg>
+	           <span>R$ 25,00</span>
+	         </article>
+	         <p>Corte de cabelo padrão
+	         </p>
+	        </div>
+	        <div class="boxServicosConteudo">
+	         <article class="boxServicosTitulo">
+	           <p>Corte Premium</p>
+	           <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#ffbf0e"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M23 13H1v-2h22z"></path><path fill="none" d="M0 0h24v24H0z"></path></g>
+	           </svg>
+	           <span>R$ 40,00</span>
+	         </article>
+	         <p>Cortes detalhados para ocasiões especiais
+	         </p>
+	        </div>
+	       </div>
+	       <div class="boxServicos">
+	        <div class="boxServicosConteudo">
+	       <svg class="imgServicos" viewBox="0 0 1024.00 1024.00" xmlns="http://www.w3.org/2000/svg" fill="#ffbf0e"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#ffbf0e" d="m512.064 578.368-106.88 152.768a160 160 0 1 1-23.36-78.208L472.96 522.56 196.864 128.256a32 32 0 1 1 52.48-36.736l393.024 561.344a160 160 0 1 1-23.36 78.208l-106.88-152.704zm54.4-189.248 208.384-297.6a32 32 0 0 1 52.48 36.736l-221.76 316.672-39.04-55.808zm-376.32 425.856a96 96 0 1 0 110.144-157.248 96 96 0 0 0-110.08 157.248zm643.84 0a96 96 0 1 0-110.08-157.248 96 96 0 0 0 110.08 157.248z"></path></g>
+	       </svg>
+	         <article class="boxServicosTitulo">
+	           <p>Pintura</p>
+	           <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#ffbf0e"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M23 13H1v-2h22z"></path><path fill="none" d="M0 0h24v24H0z"></path></g>
+	           </svg>
+	           <span>R$ 15,00</span>
+	         </article>
+	         <p> Pinturas na barba, cabelo, bigode ou sombrancelha
+	         </p>
+	        </div>
+	        <div class="boxServicosConteudo">
+	         <article class="boxServicosTitulo">
+	           <p>Desenho</p>
+	           <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#ffbf0e"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M23 13H1v-2h22z"></path><path fill="none" d="M0 0h24v24H0z"></path></g>
+	           </svg>
+	           <span>R$ 25,00</span>
+	         </article>
+	         <p> Desenhos detalhados na barba ou cabelo
+	         </p>
+	        </div>
+	        <div class="boxServicosConteudo">
+	         <article class="boxServicosTitulo">
+	           <p>Alisamento</p>
+	           <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#ffbf0e"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M23 13H1v-2h22z"></path><path fill="none" d="M0 0h24v24H0z"></path></g>
+	           </svg>
+	           <span>R$ 25,00</span>
+	         </article>
+	         <p>
+	           Alisar e tratar o cabelo
+	         </p>
+	        </div>
+	       </div>
+    </div>
+    </section>
+    
+    <section class="containerCabeleleiro">
+      
+      <div class="flexCabeleleiros">
+        
+      <aside class="tituloAtivo">
+	      <h2>
+	        <span>
+	          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#ffbf0e"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M23 13H1v-2h22z"></path><path fill="none" d="M0 0h24v24H0z"></path></g></svg></span>Nossos barbeiros
+	          </h2>
+	          <i>Clique para conferir</i>
+	       </aside>
+      
+      <div class="containerCabeleleiroImg">
+        <img onclick="cabeleleiro1()" class="imgCabeleleiro" id="imgCabeleleiro1" src="./img/cabeleleiros/cabeleleiro2.png" alt="">
+        <img onclick="cabeleleiro2()" class="imgCabeleleiro" id="imgCabeleleiro2" src="./img/cabeleleiros/cabeleleiro3.png" alt="">
+        <img onclick="cabeleleiro3()"class="imgCabeleleiro" id="imgCabeleleiro3" src="./img/cabeleleiros/cabeleleiro4.png" alt="">
+        <img onclick="cabeleleiro4()" class="imgCabeleleiro" id="imgCabeleleiro4" src="./img/cabeleleiros/cabeleleiro5.png" alt="">
+      </div>
+      </div>
+      
+      <div class="flexCabeleleiros">
+        
+      <aside class="tituloAtivo2">
+	      <h2>
+	        <span>
+	          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#ffbf0e"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M23 13H1v-2h22z"></path><path fill="none" d="M0 0h24v24H0z"></path></g></svg></span>Nossos barbeiros
+	          </h2>
+	          <i>Clique para conferir</i>
+	       </aside>
+	       
+      <div class="containerCabeleleiroConteudo">
+      
+        <article id="cabeleleiro1" class="boxCabeleleiroConteudo">
+          <h3>Marcos Vieira</h3>
+          <span><i class="fa fa-instagram"></i>@marcosvieriacabeleleiro</span>
+          <span><i class="fa fa-facebook"></i>@marcosvieriacabeleleiro</span>
+          <span><i class="fa fa-envelope"></i>@marcosvieriacabeleleiro</span>
+          <br>
+          <h3>Certificações</h3>
+          <span>2019, Cabeleleiro do Ano pela Times</span>
+          <span>2016, Cabeleleiro do mes</span>
+          <span>2018, Cabeleleiro do mes</span>
+        </article>
+        <article id="cabeleleiro2" class="boxCabeleleiroConteudo">
+          <h3>Paulo Arantes</h3>
+          <span><i class="fa fa-instagram"></i>@pauloarantescabeleleiro</span>
+          <span><i class="fa fa-facebook"></i>@pauloarantescabeleleiro</span>
+          <span><i class="fa fa-envelope"></i>@marcosvieriacabeleleiro</span>
+          <br>
+          <h3>Certificações</h3>
+          <span>2012, Cabeleleiro do Ano pela Times</span>
+        </article>
+        <article id="cabeleleiro3" class="boxCabeleleiroConteudo">
+          <h3>Lucas Ribeiro</h3>
+          <span><i class="fa fa-instagram"></i>@lucasribeirocabeleleiro</span>
+          <span><i class="fa fa-facebook"></i>@lucasribeirocabeleleiro</span>
+          <span><i class="fa fa-envelope"></i>@lucasribeirocabeleleiro</span>
+          <br>
+          <h3>Certificações</h3>
+          <span>2010, Cabeleleiro do Ano pela Times</span>
+          <span>2011, Cabeleleiro do mes</span>
+        </article>
+        <article id="cabeleleiro4" class="boxCabeleleiroConteudo">
+          <h3>José Quintana</h3>
+          <span><i class="fa fa-instagram"></i>@josequintanacabeleleiro</span>
+          <span><i class="fa fa-facebook"></i>@josequintanacabeleleiro</span>
+          <span><i class="fa fa-envelope"></i>@josequintanacabeleleiro</span>
+          <br>
+          <h3>Certificações</h3>
+          <span>2023, Cabeleleiro do Ano pela Times</span>
+          <span>2007, Cabeleleiro do mes</span>
+          <span>2008, Cabeleleiro do mes</span>
+          <span>2009, Cabeleleiro do mes</span>
+        </article>
+      </div>
+      
+      </div>
+      
+    </section>
+    
+	  <section class="containerComentarios">
+	    <div class="containerComentariosTitulo">
+	      <aside>
+	      <h2>
+	        <span>
+	          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#ffbf0e"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M23 13H1v-2h22z"></path><path fill="none" d="M0 0h24v24H0z"></path></g></svg></span>É isso que pensam</h2>
+	       <i>O primeiro tem disconto</i>
+	       </aside>
+	        <article class="boxBtns2">
+        <aside class="boxSetas2">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="var(--branco)" class="setas2 bi bi-arrow-left" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+</svg>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="var(--branco)" class="setas2 bi bi-arrow-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+</svg>
+        </aside>
+        </article>
+	    </div>
+	    <div class="containerComentariosConteudo">
+	    <article class="boxComentarios">
+	      <div class="boxComentarioImg">
+	        <img src="./img/users/user3.png" alt="usuario1">
+	      </div>
+	      <div class="boxComentarioConteudo">
+	        <aside>
+	          <h3>João Ribeiro</h3>
+	          <span>&#9733;  5.0</span>
+	        </aside>
+	        <p>
+	          Gostei muito dos cortes, realmente manjam demais!
+	        </p>
+	      </div>
+	    </article>
+	    <article class="boxComentarios">
+	      <div class="boxComentarioImg">
+	        <img src="./img/users/user.png" alt="usuario1">
+	      </div>
+	      <div class="boxComentarioConteudo">
+	        <aside>
+	          <h3>Marcos Alcantara</h3>
+	          <span>&#9733;  5.0</span>
+	        </aside>
+	        <p>
+	          O pessoal é mesmo diferenciado, gostei muito de ter conhecido a PatroBarber.
+	        </p>
+	      </div>
+	    </article>
+	    <article class="boxComentarios">
+	      <div class="boxComentarioImg">
+	        <img src="./img/users/user2.png" alt="usuario1">
+	      </div>
+	      <div class="boxComentarioConteudo">
+	        <aside>
+	          <h3>Max Emiliano</h3>
+	          <span>&#9733;  5.0</span>
+	        </aside>
+	        <p>
+	          Simplismente incrível!!!
+	        </p>
+	      </div>
+	    </article>
+	    </div>
+	  </section>
+    <section class="containerContato">
+	  <img src="./img/barbearia2.png" alt="ambienteBarbearia">
+	  <form  action="">
+	    
+	    <aside>
+	      <h2>
+	        <span><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#ffbf0e"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M23 13H1v-2h22z"></path><path fill="none" d="M0 0h24v24H0z"></path></g></svg></span>Agende seu corte</h2>
+	       <i>O primeiro tem disconto</i></aside>
+	    <div id="conteudoForm" class="formContent">
+	     <article class="boxInput">
+	      <label for="nome">Nome</label>
+	      <input required type="text" name="nome" id="nome" value="" placeholder="Insira seu nome" />
+	    </article>
+	     <article class="boxInput">
+	      <label for="Telefone">Telefone</label>
+	      <input required type="text" name="telefone" id="telefone" value="" placeholder="Insira seu telefone" />
+	      </article>
+	     <article class="boxInput">
+	      <label for="data">Data e horário desejado</label>
+	      <input required type="datetime-local" name="data" id="data" value="" placeholder=""/>
+	    </article>
+	     <article class="boxInput">
+	       <label for="pessoas">Numero de clientes reservando</label>
+	       <input required oninput="revelarServico()" type="number" id="pessoas" name="pessoas" placeholder=" 1 à 3" min="1" max="3">
+	     </article>
+	     <article id="novoServico"></article>
+	    <button id="btnReserva" type="submit">Confirmar reserva</button>
+	    </div>
+	  
+	    </form>
+	</section>
+  </main>
+  
+    <div class="divisorHorizontal">&nbsp;</div>
+	  <footer>
+    <div class="containerFlexFooter">
+      <img src="./img/complementos/logo.svg" alt="logo">
+      <div class="containerContentFooter">
+        <article class="boxContentFooter">
+          <h4>Sobre nós</h4>
+          <aside>Reserva</aside>
+          <aside>Loalização</aside>
+          <aside>Cabelereiros</aside>
+        </article>
+        <article class="boxContentFooter">
+          <h4>Serviços</h4>
+          <aside>Cortes</aside>
+          <aside>Estilização</aside>
+        </article>
+        <article class="boxContentFooter">
+          <h4>Horários</h4>
+          <aside>Seg - Dom :</aside>
+          <aside>9:00-21:00</aside>
+        </article>
+      </div>
+      <div class="containerSocialMedia">
+        <img src="img/complementos/instagram.svg" alt="instagram">
+        <img src="img/complementos/facebook.svg" alt="facebook">
+      </div>
+    </div>
+
+  </footer>
+	
+	  <script src="js/index.js"></script>
+	 
+</body>
+
+</html>
